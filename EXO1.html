@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-10">
+
+                    <div class="row">
+                        <div class="col-12" style="height: 150px;"></div>
+                        <div class="col-12" id="element-1520" style="border-bottom: inset;">
+                            <div class="row">
+                                <div class="col-3"
+                                    style="align-content: center;">
+                                    <img style="width: -webkit-fill-available;"
+                                        src="https://img-4.linternaute.com/ABXKhMbAXZGLYZ_h12UeQGJl2TI=/1500x/smart/6670675da1cc4c539926538636a0ecee/ccmcms-linternaute/10784129.jpg"
+                                        alt>
+                                </div>
+                                <div class="col-3"
+                                    style="align-content: center;">
+                                    <p style="font-size: 12px;">Ordinateur</p>
+                                </div>
+                                <div class="col-3"
+                                    style="align-content: center;">
+                                    <p style="font-size: 12px;">70,00€</p>
+                                </div>
+                                <div class="col-3"
+                                    style="align-content: center;">
+                                    <button id="demoBtn" class="btn btn-danger"
+                                        onclick="supprimerItem('1520');">Supprimer</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12" id="element-1520" style="border-bottom: inset;">
+                            <div class="row">
+                                <div class="col-3"
+                                    style="align-content: center;">
+                                    <img style="width: -webkit-fill-available;"
+                                        src="https://img-4.linternaute.com/ABXKhMbAXZGLYZ_h12UeQGJl2TI=/1500x/smart/6670675da1cc4c539926538636a0ecee/ccmcms-linternaute/10784129.jpg"
+                                        alt>
+                                </div>
+                                <div class="col-3"
+                                    style="align-content: center;">
+                                    <p style="font-size: 12px;">Ordinateur</p>
+                                </div>
+                                <div class="col-3"
+                                    style="align-content: center;">
+                                    <p style="font-size: 12px;">70,00€</p>
+                                </div>
+                                <div class="col-3"
+                                    style="align-content: center;">
+                                    <button id="demoBtn" class="btn btn-danger"
+                                        onclick="supprimerItem('1520');">Supprimer</button>
+                                </div>
+                            </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </body>
+    <script>
+        function supprimerItem(idItem) {
+            console.log("test 1");
+
+            document.getElementById("element-" + idItem).remove();
+
+        }
+    </script>
+</html>
